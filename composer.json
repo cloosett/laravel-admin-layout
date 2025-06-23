@@ -1,0 +1,25 @@
+{
+    "name": "cloosett/laravel-admin-layout",
+    "description": "Laravel Admin Panel Layout (IPTV)",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Maks\\LaravelAdmin\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Maks\\LaravelAdmin\\LayoutPackageServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "cloosett"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
