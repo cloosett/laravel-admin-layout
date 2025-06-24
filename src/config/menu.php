@@ -8,6 +8,7 @@ return [
             'icon' => 'bi-speedometer2',
             'active_pattern' => 'dashboard*',
         ],
+
         [
             'title' => 'Users',
             'route' => 'users.index',
